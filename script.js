@@ -5,7 +5,7 @@ const btnMakeRobot = document.querySelector("#btnMakeRobot");
 
 // RobotCard class for creating an object
 class RobotCard {
-    // Constructing the Person object
+    // Constructing the RobotCard object
     constructor(parentElement, name, picture) {
         this.parentElement = parentElement;
         this.name = name;
