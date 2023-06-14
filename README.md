@@ -1,2 +1,2 @@
-# RoboCardMaker
-Robo Card Maker App - source code for the website
+# Robo Card Maker
+Robo Card Maker App - implemented in HTML and JavaScript with the use of the Bootstrap framework
