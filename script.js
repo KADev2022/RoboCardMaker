@@ -44,8 +44,15 @@ class RobotCard {
 
 // Button to create a robot card
 btnMakeRobot.addEventListener("click", function () {
-    const newRoboCard = new RobotCard(parentElement, setName.value, robotImage);
-    newRoboCard.createRobotCard();
-    setName.value = "";
-    robotImage.value = "";
+    // Validation to check if the robot image file name and the robot name are empty
+    if (robotImage.value == "" || setName.value == "") {
+        robotImage.classList.add("is-invalid");
+        setName.classList.add("is-invalid");
+    } else {
+        // Otherwise process the data
+        const newRoboCard = new RobotCard(parentElement, setName.value, robotImage);
+        newRoboCard.createRobotCard();
+        setName.value = "";
+        robotImage.value = "";
+    }
 });
