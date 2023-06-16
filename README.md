@@ -7,3 +7,6 @@ Robo Card Maker App - implemented in HTML and JavaScript with the use of the Boo
 
 ## Website
 <li><a href="http://210149902.cs2410-web01pvm.aston.ac.uk/RoboCardMaker/robots.html" target="_blank">Robot Card Maker</a></li>
+
+## Notes
+<li>When uploading a robot image, you must download the ZIP file called <code>robots.zip</code> and extract the <code>robots</code> folder to upload any robot image on the website. <a href="robots.zip" download>Download ZIP</a></li>
